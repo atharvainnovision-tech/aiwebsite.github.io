@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Atharva Innovision – Company Portfolio</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Source+Serif+4:wght@400;600&display=swap">
+<style>
+:root{--bg:#f6f8fb;--surface:#fff;--ink:#10223a;--muted:#55657c;--line:#d9e1ec;--brand:#0b3d91;--accent:#0fb5a6;--hero:#0b2a5b;--hero-ink:#fff;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1424;--surface:#13203a;--ink:#e8eef8;--muted:#9fb0c8;--line:#24365a;--brand:#6ea3ff;--accent:#2fd4c4;--hero:#0a1a38;--hero-ink:#fff}}
+:root[data-theme="dark"]{--bg:#0b1424;--surface:#13203a;--ink:#e8eef8;--muted:#9fb0c8;--line:#24365a;--brand:#6ea3ff;--accent:#2fd4c4;--hero:#0a1a38;--hero-ink:#fff}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'Source Serif 4',Georgia,serif;line-height:1.65;font-size:17px}
+h1,h2,h3,.sans{font-family:'Sora',system-ui,sans-serif}
+.wrap{max-width:980px;margin:0 auto;padding:0 22px}
+header.hero{background:var(--hero);color:var(--hero-ink);padding:72px 0 64px;position:relative;overflow:hidden}
+header.hero::after{content:"";position:absolute;right:-80px;top:-80px;width:340px;height:340px;border:44px solid var(--accent);opacity:.18;border-radius:50%}
+.brand{font-family:'Sora',sans-serif;font-weight:600;font-size:15px;letter-spacing:.02em;opacity:.85}
+h1{font-size:clamp(36px,7vw,64px);line-height:1.05;margin:18px 0 16px;font-weight:800;max-width:14ch}
+.hero p{max-width:52ch;font-size:19px;opacity:.9;margin:0 0 28px}
+.cta{display:inline-flex;gap:10px;flex-wrap:wrap}
+.btn{font-family:'Sora',sans-serif;font-weight:600;font-size:15px;text-decoration:none;padding:12px 20px;border-radius:8px;background:var(--accent);color:#04201d}
+.btn.alt{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.5)}
+.btn:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+section{padding:56px 0;border-bottom:1px solid var(--line)}
+h2{font-size:28px;margin:0 0 18px;font-weight:800}
+.lead{max-width:68ch;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:24px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:22px}
+.card h3{margin:0 0 8px;font-size:18px}
+.card p{margin:0;color:var(--muted);font-size:16px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:0;margin-top:26px;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+.facts div{padding:20px;border-right:1px solid var(--line)}
+.facts div:last-child{border-right:0}
+.facts b{display:block;font-family:'Sora',sans-serif;font-size:20px;color:var(--brand)}
+.facts span{color:var(--muted);font-size:15px}
+.steps{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:0;border-left:3px solid var(--accent)}
+.steps li{padding:6px 0 18px 22px}
+.steps strong{font-family:'Sora',sans-serif}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.tags span{font-family:'Sora',sans-serif;font-size:14px;padding:8px 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface)}
+.contact{background:var(--hero);color:#fff;border:0;padding:64px 0}
+.contact h2{color:#fff}
+.contact a{color:var(--accent);text-decoration:none;font-family:'Sora',sans-serif;font-weight:600;font-size:22px}
+.contact p{margin:6px 0 0}
+.note{font-size:14px;opacity:.7;margin-top:28px}
+footer{padding:22px 0 30px;text-align:center;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<header class="hero"><div class="wrap">
+<div class="brand">Atharva Innovision</div>
+<h1>Your trusted IT partner.</h1>
+<p>We design, build and run the technology that keeps your business moving, from software and cloud to security and day-to-day IT support.</p>
+<div class="cta"><a class="btn" href="#contact">Talk to us</a><a class="btn alt" href="#services">Our services</a></div>
+</div></header>
+
+<section><div class="wrap">
+<h2>About us</h2>
+<p class="lead">Atharva Innovision is an IT services company that works as an extension of your team. We take time to understand how your business runs, then recommend technology that fits your goals and budget. We are open about scope, cost and timelines, and we stay with you after launch.</p>
+<div class="facts">
+<div><b>End-to-end</b><span>From idea to support</span></div>
+<div><b>Transparent</b><span>Clear scope and pricing</span></div>
+<div><b>Responsive</b><span>Real people, quick replies</span></div>
+<div><b>Long-term</b><span>Partners, not vendors</span></div>
+</div>
+</div></section>
+
+<section id="services"><div class="wrap">
+<h2>What we do</h2>
+<div class="grid">
+<div class="card"><h3>Software development</h3><p>Custom web and mobile applications, built to match your workflow and ready to grow.</p></div>
+<div class="card"><h3>Website and e-commerce</h3><p>Fast, search-friendly websites and online stores that are easy for your team to manage.</p></div>
+<div class="card"><h3>Cloud and DevOps</h3><p>Cloud setup, migration, automation and monitoring so your systems stay reliable and cost-aware.</p></div>
+<div class="card"><h3>Managed IT support</h3><p>Helpdesk, maintenance, networking and device management for smooth daily operations.</p></div>
+<div class="card"><h3>Cybersecurity</h3><p>Security assessments, backups and access controls that protect your data and your customers.</p></div>
+<div class="card"><h3>IT consulting</h3><p>Technology planning, vendor selection and digital roadmaps tailored to your business.</p></div>
+</div>
+</div></section>
+
+<section><div class="wrap">
+<h2>How we work</h2>
+<ol class="steps">
+<li><strong>Discover.</strong> We learn your goals, users and constraints.</li>
+<li><strong>Plan.</strong> You get a clear scope, timeline and cost estimate.</li>
+<li><strong>Build.</strong> We deliver in stages, with regular demos and feedback.</li>
+<li><strong>Launch.</strong> We test, deploy and train your team.</li>
+<li><strong>Support.</strong> We monitor, maintain and improve over time.</li>
+</ol>
+</div></section>
+
+<section><div class="wrap">
+<h2>Industries we serve</h2>
+<div class="tags"><span>Startups</span><span>Retail and e-commerce</span><span>Education</span><span>Healthcare</span><span>Manufacturing</span><span>Professional services</span></div>
+</div></section>
+
+<section><div class="wrap">
+<h2>Why choose Atharva Innovision</h2>
+<div class="grid">
+<div class="card"><h3>Business-first thinking</h3><p>We choose technology for the outcome you need, not the trend of the month.</p></div>
+<div class="card"><h3>Honest communication</h3><p>Plain language, regular updates and no surprises on scope or cost.</p></div>
+<div class="card"><h3>Built to last</h3><p>Clean, documented work that your team can rely on and extend.</p></div>
+</div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap">
+<h2>Let's talk about your project</h2>
+<p>Call us</p>
+<a href="tel:+91 9611341483">+91 9611341483</a>
+<p style="margin-top:20px">Email us</p>
+<a href="mailto:info@atharvainnovision.com">info@atharvainnovision.com</a>
+<p style="margin-top:0px"></p>
+<a href="mailto:atharvainnovision@gmail.com">atharvainnovision@gmail.com</a>
+</div></section>
+
+<footer>© 2026 Atharva Innovision. All rights reserved.</footer>
+</body>
+</html>
